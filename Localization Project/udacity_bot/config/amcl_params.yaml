@@ -1,0 +1,18 @@
+transform_tolerance: 0.5
+
+min_particles: 100
+max_particles: 500
+
+odom_alpha1: 0.01
+odom_alpha2: 0.01
+odom_alpha3: 0.01
+odom_alpha4: 0.01
+odom_alpha5: 0.01
+
+initial_pose_x: 0.0
+initial_pose_y: 0.0
+initial_pose_a: 0.0
+
+recovery_alpha_slow: 0.001
+
+resample_interval: 2
