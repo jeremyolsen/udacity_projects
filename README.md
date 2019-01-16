@@ -9,8 +9,13 @@ Term 1 Projects
   
   The first step was to get a Unity simulator up and running. Once the simulator was running, we were to record data in training mode test   functionality of the project code in the Jupyter notebook.  Were were to add custom code to search for obstacles using techniques with     OpenCV.  We were then create a series of decision making commands to help navigate the rover around the map and pick up gold colored       rocks.
   
+
+* Robotic Arm: Pick N Place
+
+  The course material focused upon teaching forward and inverse kinematics.  The project expaned upon this knowlege by providing us a Gazebo simulated environment to peferform inverse kinematics when provided a list of end-effector poses and calculate joint angles for the Kuka KR210.
+  
 * Deep Learning Project
-* Pick N Place
+
 * Perception
 
 
