@@ -14,3 +14,9 @@ Term 2 Projects
 * Reinforced Learning Project
 * SLAM Project
 * Home Service Robot
+
+## Computer Vision Nanodegree
+* Facial Keypoint Project
+* Image Captioning using Machine Learning Project
+* SLAM Project
+
