@@ -1,8 +1,8 @@
-# Udacity Nanodegree projects.  
+# Udacity Nanodegree Projects  
 
 ## Robotics Software Engineer Nanodegree
 
-Term 1 Projects 
+### Term 1 Projects 
 * **Search Map Project (Mars Rover Simulation)**
   
   This was the very first project of the ND which served as an introduction to the course.  After reviewing the lesson materials, the     goals of this project were to write code to autonomously map a simulated environment and search for samples of interest. 
@@ -18,15 +18,15 @@ Term 1 Projects
 * **Deep Learning Project**
 
 
-Term 2 Projects
-* Inference Project
-* Localization Project
-* Reinforced Learning Project
-* SLAM Project
-* Home Service Robot
+### Term 2 Projects
+* **Inference Project**
+* **Localization Project**
+* **Reinforced Learning Project**
+* **SLAM Project**
+* **Home Service Robot**
 
 ## Computer Vision Nanodegree
-* Facial Keypoint Project
-* Image Captioning using Machine Learning Project
-* SLAM Project
+* **Facial Keypoint Project**
+* **Image Captioning using Machine Learning Project**
+* **SLAM Project**
 
