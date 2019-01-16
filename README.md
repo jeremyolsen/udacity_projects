@@ -11,7 +11,7 @@
 
 * **Robotic Arm: Pick N Place**
 
-  The course material focused upon teaching forward and inverse kinematics.  The project expaned upon this knowlege by providing us a Gazebo simulated environment to peferform inverse kinematics when provided a list of end-effector poses and calculate joint angles for the Kuka KR210.
+  The course material focused upon teaching forward and inverse kinematics.  The project expanded upon this knowlege by providing us a Gazebo simulated environment to peferform inverse kinematics when provided a list of end-effector poses and calculate joint angles for the Kuka KR210.
 
 * **Perception**
 
