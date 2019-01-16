@@ -1,6 +1,6 @@
-## Udacity Nanodegree projects.  
+# Udacity Nanodegree projects.  
 
-# Robotics Software Engineer Nanodegree
+## Robotics Software Engineer Nanodegree
 
 Term 1 Projects
 * Deep Learning Project
