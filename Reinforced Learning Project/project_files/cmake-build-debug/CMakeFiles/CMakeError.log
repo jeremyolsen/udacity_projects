@@ -1,0 +1,224 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0fad4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0fad4.dir/build.make CMakeFiles/cmTC_0fad4.dir/build
+make[1]: Entering directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fad4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_0fad4.dir/CheckSymbolExists.c.o   -c /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0fad4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fad4.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_0fad4.dir/CheckSymbolExists.c.o  -o cmTC_0fad4 -rdynamic 
+CMakeFiles/cmTC_0fad4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0fad4.dir/build.make:97: recipe for target 'cmTC_0fad4' failed
+make[1]: *** [cmTC_0fad4] Error 1
+make[1]: Leaving directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0fad4/fast' failed
+make: *** [cmTC_0fad4/fast] Error 2
+
+File /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_373f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_373f2.dir/build.make CMakeFiles/cmTC_373f2.dir/build
+make[1]: Entering directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_373f2.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_373f2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_373f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_373f2.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_373f2.dir/CheckFunctionExists.c.o  -o cmTC_373f2 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_373f2.dir/build.make:97: recipe for target 'cmTC_373f2' failed
+make[1]: *** [cmTC_373f2] Error 1
+make[1]: Leaving directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_373f2/fast' failed
+make: *** [cmTC_373f2/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7e0f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7e0f.dir/build.make CMakeFiles/cmTC_a7e0f.dir/build
+make[1]: Entering directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7e0f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_a7e0f.dir/CheckSymbolExists.c.o   -c /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a7e0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7e0f.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_a7e0f.dir/CheckSymbolExists.c.o  -o cmTC_a7e0f -rdynamic 
+CMakeFiles/cmTC_a7e0f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a7e0f.dir/build.make:97: recipe for target 'cmTC_a7e0f' failed
+make[1]: *** [cmTC_a7e0f] Error 1
+make[1]: Leaving directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a7e0f/fast' failed
+make: *** [cmTC_a7e0f/fast] Error 2
+
+File /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b095/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b095.dir/build.make CMakeFiles/cmTC_5b095.dir/build
+make[1]: Entering directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b095.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5b095.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5b095
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b095.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5b095.dir/CheckFunctionExists.c.o  -o cmTC_5b095 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5b095.dir/build.make:97: recipe for target 'cmTC_5b095' failed
+make[1]: *** [cmTC_5b095] Error 1
+make[1]: Leaving directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5b095/fast' failed
+make: *** [cmTC_5b095/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_520bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_520bb.dir/build.make CMakeFiles/cmTC_520bb.dir/build
+make[1]: Entering directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_520bb.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_520bb.dir/CheckSymbolExists.c.o   -c /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_520bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_520bb.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_520bb.dir/CheckSymbolExists.c.o  -o cmTC_520bb -rdynamic 
+CMakeFiles/cmTC_520bb.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_520bb.dir/build.make:97: recipe for target 'cmTC_520bb' failed
+make[1]: *** [cmTC_520bb] Error 1
+make[1]: Leaving directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_520bb/fast' failed
+make: *** [cmTC_520bb/fast] Error 2
+
+File /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9cfc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9cfc.dir/build.make CMakeFiles/cmTC_a9cfc.dir/build
+make[1]: Entering directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9cfc.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a9cfc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a9cfc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9cfc.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a9cfc.dir/CheckFunctionExists.c.o  -o cmTC_a9cfc -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a9cfc.dir/build.make:97: recipe for target 'cmTC_a9cfc' failed
+make[1]: *** [cmTC_a9cfc] Error 1
+make[1]: Leaving directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a9cfc/fast' failed
+make: *** [cmTC_a9cfc/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_819df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_819df.dir/build.make CMakeFiles/cmTC_819df.dir/build
+make[1]: Entering directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_819df.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_819df.dir/CheckSymbolExists.c.o   -c /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_819df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_819df.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_819df.dir/CheckSymbolExists.c.o  -o cmTC_819df -rdynamic 
+CMakeFiles/cmTC_819df.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_819df.dir/build.make:97: recipe for target 'cmTC_819df' failed
+make[1]: *** [cmTC_819df] Error 1
+make[1]: Leaving directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_819df/fast' failed
+make: *** [cmTC_819df/fast] Error 2
+
+File /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f64b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f64b.dir/build.make CMakeFiles/cmTC_5f64b.dir/build
+make[1]: Entering directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f64b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5f64b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f64b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f64b.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5f64b.dir/CheckFunctionExists.c.o  -o cmTC_5f64b -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5f64b.dir/build.make:97: recipe for target 'cmTC_5f64b' failed
+make[1]: *** [cmTC_5f64b] Error 1
+make[1]: Leaving directory '/home/nvidia/RoboND-DeepRL-Project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5f64b/fast' failed
+make: *** [cmTC_5f64b/fast] Error 2
+
+
