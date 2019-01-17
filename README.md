@@ -15,6 +15,9 @@
 
 * **Perception**
 
+  Must successfully complete a tabletop pick and place operation using a simulated PR2 robot. The PR2 has been outfitted with an RGB-D sensor much like the one you used in previous exercises. This sensor however is a bit noisy much like real sensors.
+Given a cluttered tabletop scenario, you must implement a perception pipeline to identify target objects from a so-called “Pick-List”.  Using a particular order, pick up those objects and place them in corresponding dropboxes located in the environment.
+
 * **Deep Learning Project**
 
 
