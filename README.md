@@ -21,6 +21,8 @@
 
 * **Deep Learning Project**
 
+  Build a segmentation network, based upon Tensor Flow framework, that will be used to create a model from images that are captured via as simulator environment.  This model is later used to follow a specific object around the simulated environment.  Next is training and testing of the model.  If goals are not achieved, then capture and further augment the dataset.
+
 
 ### Term 2 Projects
 * **Inference Project**
