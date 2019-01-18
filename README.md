@@ -43,6 +43,7 @@
 
 * **Home Service Robot**
 
+  Final project for the RoboND.  Goal is to utilized many of the skills obtained from the ND and setup the ROS/Gazebo environment from scratch.  Part of the task is to create a customized Gazebo building using the editor in which the simulated robot will interact with.  Setup a custom ROS package that will contain  that will interact with the gmapping, AMCL,  turtlebot_teleop, turtlebot_rviz and turtlebot_gazebo packages.  The end goal is to reach multiple goals around the environment using localization and mapping to perform SLAM. 
 
 
 ## Computer Vision Nanodegree
