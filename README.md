@@ -26,7 +26,13 @@
 
 ### Term 2 Projects
 * **Inference Project**
+
+  Create a custom classification network Using Nvidia DIGITS workspace after collecting our own images for a dataset.  This required setting up the data set using the KITTI structure.  Optionally, deploy the newly trained model to the Nvidia TX2.
+
 * **Localization Project**
+
+  Using ROS, Gazebo, and Rviz to accurately localize a mobile robot inside a provided map.  The requirements are to first build a robot in Gazebo that uses a laser range finder and wheel encoders to use for the localization application.  Create a ROS package that launches the custom robot model in a Gazebo world and utilizes packages like AMCL and the Navigation Stack.  Once the complete simulation is setup, tuning and adding specific parameters corresponding to each package is required to achieve the best localization results.
+
 * **Reinforced Learning Project**
 * **SLAM Project**
 * **Home Service Robot**
