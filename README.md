@@ -34,8 +34,16 @@
   Using ROS, Gazebo, and Rviz to accurately localize a mobile robot inside a provided map.  The requirements are to first build a robot in Gazebo that uses a laser range finder and wheel encoders to use for the localization application.  Create a ROS package that launches the custom robot model in a Gazebo world and utilizes packages like AMCL and the Navigation Stack.  Once the complete simulation is setup, tuning and adding specific parameters corresponding to each package is required to achieve the best localization results.
 
 * **Reinforced Learning Project**
+
+  Goal of the project is to create a DQN agent and define reward functions to teach a robotic arm to carry out two primary objectives.  First, have any part of the robot arm touch the object of interest with at least 90% accuracy.  Second, have only a small part of the gripper touch the object with at least 80% accuracy.  The project is all written in C++ and is controlling Gazebo via the external API.  The DQN agent is utilizing Torch.
+
 * **SLAM Project**
+
+  Develop a ROS package to interface with the rtabmap_ros package, including all the correct topic links are setup correctly. Modify the custom Gazebo model from the previous project by adding an RGB-D camera which will be controlled by the ROS teleop package. Goal is to create a custom environment and map it entirely using the camera enabled custom bot.  Extensive debugging is performed using roswtf and rqt common plugins.
+
 * **Home Service Robot**
+
+
 
 ## Computer Vision Nanodegree
 * **Facial Keypoint Project**
