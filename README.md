@@ -48,6 +48,14 @@
 
 ## Computer Vision Nanodegree
 * **Facial Keypoint Project**
+
+  This project uses computer vision techniques and deep learning architectures to build a facial keypoint detection system. Facial keypoints include points around the eyes, nose, and mouth on a face and are used in many applications. The completed code should be able to look at any image, detect faces, and predict the locations of facial keypoints on each face.  The majority of the project focuses upon defining and training of a CNN to predict the facial keypoints.
+
 * **Image Captioning using Machine Learning Project**
+
+  Create a neural network architecture to automatically generate captions from images.  The network will be trained using the MS COCO dataset.  All inputs are passed as a sequence into an LSTM, which processes these sequentially to derive a series of word to describe the image.
+
 * **SLAM Project**
+
+  Implement SLAM (Simultaneous Localization and Mapping) for a 2 dimensional world.  This will combine sensor measurements and movement to create a simple map of the environment.
 
