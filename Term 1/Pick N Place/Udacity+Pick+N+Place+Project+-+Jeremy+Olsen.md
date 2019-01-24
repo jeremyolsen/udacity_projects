@@ -15,7 +15,7 @@
 
 
 ## Kinematic Analysis
-###1. After setting up the environment, I started the Forward Kinematics demo. Using the URDF parameters I was able to perform the kinematic analysis on the Kuka KR210 and derived the table of DH parameters.
+### 1. After setting up the environment, I started the Forward Kinematics demo. Using the URDF parameters I was able to perform the kinematic analysis on the Kuka KR210 and derived the table of DH parameters.
 
 Description of DH Parameters from Lesson 2:
 _Jacques Denavit and Richard Hartenberg proposed a systematic method of attaching reference frames to the links of a manipulator that simplified the homogeneous transforms. This method only requires four parameters to describe the position and orientation of neighboring reference frames._
@@ -54,7 +54,7 @@ Links | alpha(i-1) | a(i-1) | d(i-1) | theta(i)
 6->EE | 0 | 0 | 0.303 | 0
 
 
-###2. Discussion of FK  
+### 2. Discussion of FK  
 
 Rotations + Translations = Transforms. Below is the example homogeneous transform matrix in which the DH Table values will be used to replace the variables of alpha, a, d, and theta. And the composite transform matrix which is the generalized homogeneous transform between the base link and the gripper link.  
 
@@ -74,7 +74,7 @@ T0_1 = Matrix([[cos(q1), -sin(q1), 0, a0],
 
 t0_ee = T0_1 * T1_2 * T2_3 * T3_4 * T4_5 * T5_6 * T6_ee
 ```
-###3. IK implementation - decoupling Inverse Orientation and Inverse Position
+### 3. IK implementation - decoupling Inverse Orientation and Inverse Position
 
 The goal of the Inverse Kinematics solution is to obtain the correct joint angles from the positions that are received in the request.  This is essentially the opposite of Forward Kinematics.  In the case of the Kuka KR210, we are able to break down the problem into two separate solutions, Inverse Position and Inverse Orientation, as it is able to satisfy the conditions necessary to be able to obtain a solution in 'closed form'.  The conditions are as follows:  
    - Three neighboring joint axes intersect at a single point, or
@@ -147,7 +147,7 @@ The extrinsic XYZ solution is not the only solution that can work to solve for t
 
 ## Project Implementation
 
-###Discussion of the IK code implementation and results
+### Discussion of the IK code implementation and results
 
 The first step I performed was to setup remote debugging from PyCharms on my PC and connected to the VM to enable me to set breakpoints and step through code.
 
